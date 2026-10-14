@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KSU Coffee - Menu</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f7f3ee;
+            color: #3e2723;
+            margin: 0;
+            padding: 40px 20px;
+            display: flex;
+            justify-content: center;
+        }
+        .container {
+            background: #ffffff;
+            padding: 30px 40px;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+            max-width: 500px;
+            width: 100%;
+        }
+        h1 {
+            color: #4a2c11;
+            margin-bottom: 5px;
+            text-align: center;
+        }
+        .student-info {
+            text-align: center;
+            color: #795548;
+            font-size: 0.95rem;
+            margin-bottom: 20px;
+        }
+        .badge {
+            display: inline-block;
+            background-color: #ffe082;
+            color: #5d4037;
+            padding: 4px 12px;
+            border-radius: 20px;
+            font-weight: bold;
+            font-size: 0.85rem;
+            margin-bottom: 25px;
+        }
+        .menu-list {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+        .menu-item {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 12px 0;
+            border-bottom: 1px dashed #d7ccc8;
+        }
+        .item-name {
+            font-weight: 600;
+        }
+        .item-price {
+            font-weight: bold;
+            color: #8d6e63;
+        }
+        .promo-container {
+            margin-top: 25px;
+            text-align: center;
+        }
+        .promo-link {
+            display: inline-block;
+            background-color: #6d4c41;
+            color: #ffffff;
+            text-decoration: none;
+            padding: 10px 22px;
+            border-radius: 6px;
+            font-weight: bold;
+            transition: background 0.2s;
+        }
+        .promo-link:hover {
+            background-color: #4e342e;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>KSU Coffee</h1>
+        <div class="student-info">
+            <div>ผู้พัฒนา: นายศักยริกข์ กาญจันดา</div>
+            <div>รหัสนักศึกษา: 671540005003-2</div>
+        </div>
+        <div style="text-align: center;"><span class="badge">Menu v2</span></div>
+
+        <ul class="menu-list">
+            <li class="menu-item">
+                <span class="item-name">Espresso (เอสเพรสโซ)</span>
+                <span class="item-price">45 บาท</span>
+            </li>
+            <li class="menu-item">
+                <span class="item-name">Americano (อเมริกาโน่)</span>
+                <span class="item-price">50 บาท</span>
+            </li>
+            <li class="menu-item">
+                <span class="item-name">Caffe Latte (ลาเต้)</span>
+                <span class="item-price">55 บาท</span>
+            </li>
+            <li class="menu-item">
+                <span class="item-name">Caramel Macchiato (คาราเมล มัคคิอาโต)</span>
+                <span class="item-price">65 บาท</span>
+            </li>
+        </ul>
+
+        <div class="promo-container">
+            <a href="http://localhost:8081" class="promo-link">ดูโปรโมชั่น</a>
+        </div>
+    </div>
+</body>
+</html>
