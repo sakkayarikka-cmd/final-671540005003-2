@@ -22,5 +22,6 @@ ESPRESSO-47
 
 ## ภาพหน้าจอ
 
+![Menu](screenshots/00-menu.png)
 ![Menu](screenshots/01-menu.png)
 ![Promo](screenshots/02-promo.png)
